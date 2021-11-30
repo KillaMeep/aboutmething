@@ -119,7 +119,7 @@ def checkinput(command):
         print('World!')
         reprompt()
     elif command.lower() == 'steam':
-        print('Feel free to shoot me a freind request and let me know you found this command!')
+        print('Feel free to shoot me a friend request and let me know you found this command!')
         openurl('https://steamcommunity.com/id/KillaMeep')
         reprompt()
     elif command.lower() == 'moar':
