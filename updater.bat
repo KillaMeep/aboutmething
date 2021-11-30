@@ -7,5 +7,3 @@ curl https://raw.githubusercontent.com/KillaMeep/aboutmething/main/requirements.
 curl https://raw.githubusercontent.com/KillaMeep/aboutmething/main/launcher.bat -O
 pip install -r requirements.txt
 del requirements.txt
-:eof
-echo done
