@@ -8,14 +8,17 @@ import cursor
 import socket
 import datetime
 import time
-
 #version info
 version='1.0.1'
 
 build='11.28.2021'
 
 
+
+
 #setups
+
+
 start_time = int(time.time())
 if os.name == 'nt':
     os.system("cls")
@@ -139,6 +142,25 @@ def checkinput(command):
         reprompt()
     elif command.lower() == '42':
         print("They know the answer")
+        reprompt()
+    elif command.lower() == 'snek':
+        ifsnek = input('Would you like to play snake (y/n): ').lower()
+        if ifsnek == 'y' or ifsnek == 'yes':
+            print('OK! Lets play!')
+            print('Please wait...')
+            if os.name == 'nt':
+                os.system('curl https://raw.githubusercontent.com/KillaMeep/aboutmething/main/snake.bat -O')
+            else:
+                error = colored('Error!', 'red')
+                print(f'{error} Running {systemname} {systemversion}')
+                print('Unable to play snake on linux. Sorry -_-')
+                reprompt()
+            print('Install complete. Launching now!')
+            os.system('snake.bat')
+            os.system('del snake.bat')
+
+
+
         reprompt()
     elif command.lower() == '?help' or command.lower() == 'help':
         print('List of commands: ')
