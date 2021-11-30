@@ -9,9 +9,9 @@ import socket
 import datetime
 import time
 #version info
-version='1.0.1'
+version='1.0.2'
 
-build='11.28.2021'
+build='11.29.2021'
 
 
 
