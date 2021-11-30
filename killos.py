@@ -162,7 +162,7 @@ def checkinput(command):
 
 
         reprompt()
-    elif command.lower() == '?help' or command.lower() == 'help':
+    elif command.lower() == '?help' or command.lower() == 'help' or command.lower() = '?':
         print('List of commands: ')
         print('\n')
         print('Info    | Displays basic info on the program')
