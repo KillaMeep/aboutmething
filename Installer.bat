@@ -7,4 +7,5 @@ curl https://raw.githubusercontent.com/KillaMeep/aboutmething/main/launcher.bat 
 curl https://raw.githubusercontent.com/KillaMeep/aboutmething/main/updater.bat -O
 pip install -r requirements.txt
 del requirements.txt
+cd ..
 del Installer.bat
