@@ -169,14 +169,6 @@ if "%=exitcode%" equ "00000002" (
   set "toggleVT100=1"
   goto :relaunch
 ) else if "%=exitcode%" equ "00000001" (
-  echo Game play can be improved by installing
-  echo Aacini's CursorPos.exe, available at
-  echo http://goo.gl/hr6Kkn
-  echo(
-  echo Alternatively, if your console supports
-  echo VT100 escape sequences, then you can
-  echo enable VT100 mode within the SNAKE.BAT
-  echo Graphic options menu.
   echo(
   echo %cmdcmdline%|find /i "%~f0">nul&&pause
 )
