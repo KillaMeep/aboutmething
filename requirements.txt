@@ -28,7 +28,6 @@ pywin32-ctypes
 six
 termcolor
 typing-extensions
-vboxapi
 w3lib
 wasabi
 webencodings
