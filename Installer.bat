@@ -8,4 +8,4 @@ curl https://raw.githubusercontent.com/KillaMeep/aboutmething/main/updater.bat -
 pip install -r requirements.txt
 del requirements.txt
 cd ..
-START /B CMD.EXE /D /C "PING.EXE -n 5 127.0.0.1 && DEL Installer.bat"
+del Installer.bat && exit
