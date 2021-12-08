@@ -8,5 +8,4 @@ curl https://raw.githubusercontent.com/KillaMeep/aboutmething/main/updater.bat -
 pip install -r requirements.txt
 del requirements.txt
 cd ..
-del Installer.bat
-exit
+start /b "" cmd /c del "%~f0"&exit /b
