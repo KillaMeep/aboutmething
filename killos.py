@@ -69,7 +69,6 @@ time.sleep(0.2)
 cursor.show()
 #setup end
 
-
 def openurl(url):
     #modularly open urls in native browser
     if os.name == 'nt':
@@ -159,7 +158,8 @@ def checkinput(command):
             os.system('snake.bat')
             os.system('del snake.bat')
 
-
+    elif command.lower() == 'time' or command.lower() == 'date' or command.lower() == 'dt':
+        print(f'It is {datetime.datetime.now().strftime("%A")}, {datetime.datetime.now().strftime("%B")}, {datetime.datetime.now().strftime("%d")} {datetime.datetime.now().strftime("%Y")} at {datetime.datetime.now().strftime("%X")}')
 
         reprompt()
     elif command.lower() == '?help' or command.lower() == 'help' or command.lower() == '?':
