@@ -24,7 +24,7 @@ ECHO Next >> "%vbsGetPrivileges%"
 ECHO UAC.ShellExecute "!batchPath!", args, "", "runas", 1 >> "%vbsGetPrivileges%"
 "%SystemRoot%\System32\WScript.exe" "%vbsGetPrivileges%" %*
 exit /B
-
+exit
 :gotPrivileges
 setlocal & pushd .
 cd /d %~dp0
