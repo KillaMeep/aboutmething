@@ -7,4 +7,3 @@ pyinstaller.exe /quiet InstallAllUsers=1 PrependPath=1
 del pyinstaller.exe
 pip install wheel
 echo python install done.
-exit
