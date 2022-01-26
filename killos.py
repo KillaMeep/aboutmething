@@ -86,7 +86,7 @@ def checkinput(command):
     
     elif command.lower() == 'info':
         print('Developed by KillaMeep as an about me type of thing.')
-        print('It was built on a I wonder if I can mindset, and this was the result of not sleeping for a night. Great turnout though!')
+        print('Basically I got bored, and this was the outcome!')
         reprompt()
     elif command.lower() == 'github' or command.lower() == 'git':
         gitcheck = input("Check me out on github! Should we go there now (y/n): ").lower()
@@ -169,6 +169,9 @@ def checkinput(command):
         print('Github  | Allows you to get a link to my github')
         print('Discord | Shows my discord usertag, and allows you to check for more details')
         print('Email   | Lets you get his email')
+        print('Time    | Shows the current time at the users location')
+        print('Snek    | Lets you play a (pretty bad) game of snake')
+        print('Rick    | You know what it does...')
         print('Version | Displays version info')
         print('Exit    | Exits KillOS')
         print(colored('(Theres a few easter eggs too)','cyan'))
