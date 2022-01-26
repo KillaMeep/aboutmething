@@ -9,3 +9,4 @@ pip install wheel
 echo python install done.
 cd ..
 start compiler.bat
+exit
